@@ -1,8 +1,5 @@
 ## MỤC ĐÍCH
-   
-   Cải tiến web thương mại điện tử bằng một số plug-in có sẵn
-   của Wordpress
-   
+> Sử dụng một số mã nguồn mở về Thương mại điện tử, đưa ra một số cải tiến dựa trên một theme có sẵn. Sử dụng WooCommerce trên Wordpress
 ## Công nghệ sử dụng
 * PHP (https://www.php.net/)
 - Wordpress (https://wordpress.com/)
