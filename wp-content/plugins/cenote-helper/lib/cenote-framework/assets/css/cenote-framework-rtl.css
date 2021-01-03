@@ -1,0 +1,229 @@
+/**
+ *
+ * -----------------------------------------------------------
+ *
+ * Cenote Framework
+ *
+ * -----------------------------------------------------------
+ *
+ */
+.cenote-framework {
+  margin-left: 20px;
+  margin-right: 0;
+}
+.cenote-framework .cenote-header h1 {
+  float: right;
+}
+.cenote-framework .cenote-header fieldset {
+  float: left;
+}
+.cenote-framework .cenote-nav {
+  float: right;
+}
+.cenote-framework .cenote-nav ul {
+  clear: right;
+}
+.cenote-framework .cenote-nav ul li .cenote-section-active:after {
+  right: auto;
+  left: 0;
+  border-left-color: #fff;
+  border-right-color: transparent;
+}
+.cenote-framework .cenote-nav ul li .cenote-arrow:after {
+  content: "\f053";
+  right: auto;
+  left: 10px;
+}
+.cenote-framework .cenote-nav ul li.cenote-tab-active .cenote-arrow:after {
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+.cenote-framework .cenote-nav ul ul li a {
+  padding-right: 25px;
+  padding-left: 15px;
+}
+.cenote-framework .cenote-nav ul ul:before {
+  left: auto;
+  right: 15px;
+}
+.cenote-framework .cenote-nav .cenote-icon {
+  margin-left: 5px;
+  margin-right: 0;
+}
+.cenote-framework .cenote-nav-background {
+  left: auto;
+  right: 0;
+}
+.cenote-framework .cenote-content {
+  margin-left: 0;
+  margin-right: 225px;
+}
+.cenote-framework .cenote-content .cenote-sections {
+  float: right;
+}
+.cenote-framework .cenote-show-all .cenote-content {
+  margin-right: 0;
+  overflow: hidden;
+}
+.cenote-framework .cenote-expand-all {
+  right: auto;
+  left: 40px;
+}
+.cenote-framework .cenote-footer {
+  text-align: left;
+}
+
+.cenote-metabox-framework {
+  margin: -6px -12px -12px -12px;
+}
+.cenote-metabox-framework .cenote-content .cenote-section-title {
+  padding: 20px;
+}
+
+.cenote-element .cenote-title {
+  float: right;
+}
+.cenote-element .cenote-fieldset {
+  margin-left: 0;
+  margin-right: 30%;
+}
+
+.cenote-pseudo-field {
+  padding: 0 0 0 5px !important;
+}
+
+.cenote-field-number em {
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+.cenote-field-typography select,
+.cenote-field-typography .chosen-container {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+.cenote-field-checkbox .horizontal li,
+.cenote-field-radio .horizontal li {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+.cenote-field-switcher label {
+  float: right;
+}
+.cenote-field-switcher .cenote-text-desc {
+  float: right;
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+.cenote-field-color_picker .cenote-alpha-slider {
+  margin-left: 0;
+  margin-right: 2px;
+}
+.cenote-field-color_picker .cenote-alpha-slider .ui-slider-handle {
+  margin: 0 -11px;
+}
+.cenote-field-color_picker .cenote-alpha-slider-offset {
+  background-position: center right;
+}
+.cenote-field-color_picker .cenote-alpha-text {
+  right: auto;
+  left: 10px;
+}
+
+.cenote-field-group .ui-accordion-icons {
+  padding-left: 0;
+  padding-right: 30px;
+}
+.cenote-field-group .ui-accordion-header-icon {
+  left: auto;
+  right: .5em;
+}
+.cenote-field-group .dashicons-arrow-right:before {
+  content: "\f141";
+}
+
+.cenote-help {
+  right: auto;
+  left: 5px;
+}
+
+.cenote-field-icon .button {
+  margin-right: 0;
+  margin-left: 5px;
+}
+.cenote-field-icon .cenote-icon-preview i {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+.cenote-field-gallery ul li {
+  margin-right: 0;
+  margin-left: 5px;
+}
+.cenote-field-gallery .button {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+.cenote-field-sorter .cenote-modules {
+  float: right;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.cenote-taxonomy-add-fields .cenote-fieldset {
+  margin-right: 0;
+}
+.cenote-taxonomy-add-fields .cenote-help {
+  left: -5px;
+  right: auto;
+}
+
+.cenote-taxonomy-edit-fields .cenote-fieldset {
+  margin-left: 0;
+  margin-right: 225px;
+}
+.cenote-taxonomy-edit-fields .cenote-help {
+  right: auto;
+  left: -5px;
+}
+
+#cenote-save-ajax {
+  right: auto;
+  left: 5px;
+}
+
+.cenote-dialog .cenote-element {
+  padding-right: 15px;
+  padding-left: 30px;
+}
+.cenote-dialog .cenote-shortcode-clone .cenote-remove-clone {
+  right: auto;
+  left: 5px;
+}
+
+#customize-controls .cenote-element .cenote-fieldset,
+.widget-content .cenote-element .cenote-fieldset,
+#side-sortables .cenote-element .cenote-fieldset {
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+  .cenote-metabox-framework .cenote-element .cenote-fieldset {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 782px) {
+  .cenote-framework .cenote-fieldset,
+  .cenote-framework .cenote-content {
+    margin-right: 0;
+  }
+}
+.ui-dialog {
+  right: auto;
+}
